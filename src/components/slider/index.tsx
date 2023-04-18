@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { Carousel } from "./Carousel";
+import { RadioButtons } from "./RadioButtons";
 import "./style.scss";
 
 import pic01 from "/images/pic01.jpg";
@@ -42,6 +43,7 @@ const Slider = () => {
       <button className="directionBtn" onClick={nextSlide}>
         &gt;
       </button>
+      <RadioButtons slides={slides} index={index} setIndex={setIndex} />
     </div>
   );
 };
