@@ -1,5 +1,11 @@
+import Slider from "./components/slider";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <main>
+      <Slider />
+    </main>
+  );
 };
 
 export default App;
