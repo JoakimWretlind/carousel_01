@@ -8,6 +8,7 @@ import pic02 from "/images/pic02.jpg";
 import pic03 from "/images/pic03.jpg";
 import pic04 from "/images/pic04.jpg";
 import pic05 from "/images/pic05.jpg";
+import logo from "/images/logo.png";
 
 const slides = [
   { id: 1, pic: pic01, title: "slide1" },
@@ -38,6 +39,7 @@ const Slider = () => {
   return (
     <main>
       <div className="pageWrapper">
+        <img className="logo" src={logo} alt="jw logo" />
         <button className="directionBtn prev" onClick={prevSlide}>
           &lt;
         </button>
