@@ -29,3 +29,5 @@
 </br>
 
 ## Run
+
+yarn dev
