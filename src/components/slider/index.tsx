@@ -34,17 +34,20 @@ const Slider = () => {
       setIndex(0);
     }
   };
+
   return (
-    <div className="pageWrapper">
-      <button className="directionBtn" onClick={prevSlide}>
-        &lt;
-      </button>
-      <Carousel slides={slides} index={index} />
-      <button className="directionBtn" onClick={nextSlide}>
-        &gt;
-      </button>
-      <RadioButtons slides={slides} index={index} setIndex={setIndex} />
-    </div>
+    <main>
+      <div className="pageWrapper">
+        <button className="directionBtn prev" onClick={prevSlide}>
+          &lt;
+        </button>
+        <Carousel slides={slides} index={index} />
+        <button className="directionBtn next" onClick={nextSlide}>
+          &gt;
+        </button>
+        <RadioButtons slides={slides} index={index} setIndex={setIndex} />
+      </div>
+    </main>
   );
 };
 
