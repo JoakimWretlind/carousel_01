@@ -20,9 +20,10 @@
 
 </br>
 
-## Video
+<video controls="" width="800" height="500" muted="" loop="" autoplay="">
+<source src="./carousel_demo.mp4" type="video/mp4">
+</video>
 
-[video](carousel_demo.mp4)
 </br>
 
 ## Run
