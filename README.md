@@ -14,6 +14,20 @@
 </br>
 </br>
 
+## Demo
+
+[simple-carousel-demo](https://simple-carousel-001.netlify.app/// "Simple Carousel")
+
+</br>
+
+## Video
+
+<video controls="controls" autoplay="autoplay">
+<source src="./carousel_demo.mp4" type="video/mp4">
+</video>
+
+</br>
+
 ## Run
 
 yarn dev
