@@ -17,16 +17,9 @@
 ## Demo
 
 [simple-carousel-demo](https://simple-carousel-001.netlify.app/// "Simple Carousel")
-
 </br>
-
-## Video
-
-<video controls="" width="800" height="500" muted="" loop="" autoplay="">
-<source src="./carousel_demo.mp4" type="video/mp4">
-</video>
-
 </br>
+![](carousel_demo.png "carousel demo")
 
 ## Run
 
