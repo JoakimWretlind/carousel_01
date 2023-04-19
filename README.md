@@ -22,7 +22,7 @@
 
 ## Video
 
-<video controls="controls" autoplay="autoplay">
+<video controls="controls">
 <source src="./carousel_demo.mp4" type="video/mp4">
 </video>
 
